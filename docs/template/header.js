@@ -1,12 +1,12 @@
 document.writeln("<nav class=\'navbar navbar-expand-lg\'>");
 document.writeln("	<div class=\'container\'>");
-document.writeln("		<a class=\'navbar-brand\' href=\'#\'><img src=\'https://xmr-online.github.io/assets/images/logo-dark.svg\' class=\'logo-navbar\'></a>");
+document.writeln("		<a class=\'navbar-brand\' href=\'\\'><img src=\'https://xmr-online.github.io/assets/images/logo-dark.svg\' class=\'logo-navbar\'></a>");
 document.writeln("		<button class=\'navbar-toggler\' type=\'button\' data-toggle=\'collapse\' data-target=\'#navbarSupportedContent\' aria-controls=\'navbarSupportedContent\' aria-expanded=\'false\' aria-label=\'Toggle navigation\'>");
 document.writeln("			<i class=\'icon ion-md-menu\'></i>");
 document.writeln("		</button>");
 document.writeln("		<div class=\'collapse navbar-collapse\' id=\'navbarSupportedContent\'>");
 document.writeln("			<ul class=\'navbar-nav mr-auto\'>");
-document.writeln("				<li class=\'nav-item active\'><a class=\'nav-link\' href=\'#\'>Home</a></li>");
+document.writeln("				<li class=\'nav-item active\'><a class=\'nav-link\' href=\'\\'>Home</a></li>");
 document.writeln("				<!--<li class=\'nav-item\'><a class=\'nav-link\' href=\'#\'>Blog</a></li>");
 document.writeln("				<li class=\'nav-item\'><a class=\'nav-link\' href=\'#\'>Contact</a></li>-->");
 document.writeln("			</ul>");
