@@ -14,6 +14,7 @@ document.writeln("			<!--<li class=\'list-inline-item\'><a class=\'footer-link\'
 document.writeln("				<li class=\'list-inline-item\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'><i class=\'icon ion-logo-facebook\'></i></a></li>");
 document.writeln("				<li class=\'list-inline-item\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'><i class=\'icon ion-logo-instagram\'></i></a></li>-->");
 document.writeln("		</ul>");
+document.writeln("		<p>Donate to support the project: 42ESz1RpvHJ7mtWSv8K6VN9fAVg3m18fo71tFx6zomqTPDa33oiFA22aPvvsj2s8zD8pDsGDaeyMTM5NDoV6N4b1SPcUjcB</p>");
 document.writeln("		<small class=\'topmargin-sm\'>Copyright &copy; 2021. XMR-Online All rights reserved.</small>");
 document.writeln("	</div>");
 document.writeln("</section>");
