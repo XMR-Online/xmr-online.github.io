@@ -1,1 +1,2 @@
 # xmr-online.github.io
+Donate to support the project: 42ESz1RpvHJ7mtWSv8K6VN9fAVg3m18fo71tFx6zomqTPDa33oiFA22aPvvsj2s8zD8pDsGDaeyMTM5NDoV6N4b1SPcUjcB
