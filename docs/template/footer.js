@@ -1,7 +1,7 @@
 document.writeln("<section id=\'footer\' class=\'bg-dark\'>");
 document.writeln("	<div class=\'container text-center\'>");
 document.writeln("		<a href=\'#\'><img src=\'https://xmr-online.github.io/assets/images/logo-light.svg\' class=\'img-responsive logo-footer\' alt=\'logo XMROnline | Themes Bootstrap\'></a>");
-document.writeln("<p><a href=\'/disclaimer.html\'>免责声明</a></p>");
+document.writeln("<p><a href=\'/disclaimer.html\'>免责声明</a> | <a href=\'/business-development.html\'>商务合作</a></p>");
 document.writeln("		<ul class=\'list-inline topmargin-sm\'>");
 document.writeln("			<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\' href=\'mailto:xmrOnlineMiner@gmail.com\'>xmrOnlineMiner@gmail.com</a></li>");
 document.writeln("			<!--<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'>Blog</a></li>");
