@@ -1,12 +1,12 @@
 document.writeln("<section id=\'footer\' class=\'bg-dark\'>");
 document.writeln("	<div class=\'container text-center\'>");
-document.writeln("		<a href=\'#\'><img src=\'https://xmr-online.github.io/assets/images/logo-light.svg\' class=\'img-responsive logo-footer\' alt=\'logo XMROnline | Themes Bootstrap\'></a>");
+document.writeln("<a href=\'#\'><img src=\'https://xmr-online.github.io/assets/images/logo-light.svg\' class=\'img-responsive logo-footer\' alt=\'logo XMROnline | Themes Bootstrap\'></a>");
 document.writeln("<p><a href=\'/disclaimer.html\'>免责声明</a> | <a href=\'/business-development.html\'>商务合作</a></p>");
-document.writeln("		<ul class=\'list-inline topmargin-sm\'>");
-document.writeln("			<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\'>Donate to support the project: 42ESz1RpvHJ7mtWSv8K6VN9fAVg3m18fo71tFx6zomqTPDa33oiFA22aPvvsj2s8zD8pDsGDaeyMTM5NDoV6N4b1SPcUjcB</a></li>");
-document.writeln("			<!--<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'>Blog</a></li>");
-document.writeln("			<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'>Contact</a></li>-->");
-document.writeln("		</ul>");
+document.writeln("<ul class=\'list-inline topmargin-sm\'>");
+document.writeln("<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\'>Donate XMR to support the project: 42ESz1RpvHJ7mtWSv8K6VN9fAVg3m18fo71tFx6zomqTPDa33oiFA22aPvvsj2s8zD8pDsGDaeyMTM5NDoV6N4b1SPcUjcB</a></li>");
+document.writeln("<!--<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'>Blog</a></li>");
+document.writeln("<li class=\'list-inline-item mobile-list\'><a class=\'footer-link\' target=\'_blank\' href=\'#\'>Contact</a></li>-->");
+document.writeln("</ul>");
 document.writeln("		<ul class=\'list-inline topmargin-sm\'>");
 document.writeln("			<li class=\'list-inline-item\'><a class=\'footer-link\' target=\'_blank\' href=\'https://twitter.com/OnlineXmr/\'><i class=\'icon ion-logo-twitter\'></i></a></li>");
 document.writeln("			<li class=\'list-inline-item\'><a class=\'footer-link\' target=\'_blank\' href=\'https://www.youtube.com/channel/UCxPuAYCdXme33Vrnzt5oHSw\'><i class=\'icon ion-logo-youtube\'></i></a></li>");
