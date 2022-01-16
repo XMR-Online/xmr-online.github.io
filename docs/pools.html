@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <!-- Custom styles -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,600" rel="stylesheet">
+<!-- Ionic icons -->
+<link href="assets/css/ionicons.min.css" rel="stylesheet">
+<!-- Favicon -->
+<link rel="shortcut icon" href="assets/images/favicon.png" />
+<title>矿池(pools) - 门罗在线</title>
+<meta name="keywords" content="pools, 矿池" />
+<meta name="description" content="" />
+<meta name="author" content="XMROnline! Team and XMROnline UI Team" />
+<meta name="copyright" content="2021 XMROnline Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+</head>
+<body>
+<script language="javascript" type="text/javascript" src="template/header.js"></script>
+<section class="bg-dark">
+	<div class="container">
+		<div class="heading-block">
+		<!--<h3 class="text-light"></h3>-->
+<p class="text-light"><input class="yourAddress" id="yourAddress" placeholder="   your address……"></p></div>
+<!--<div class="heading-block">
+<h3 class="text-light topmargin-sm"></h3>
+<small class="topmargin-sm text-light">Contact xmrOnlineMiner@gmail.com to connect your mining pool here</small>
+</div>-->
+</div>
+</section>
+<section class="bg-light">
+	<div class="container">
+			<div class="heading-block">
+			
+<table border="1">
+    <tr>
+        <th>pool name</th>
+        <th>address</th>
+		<th>port</th>
+		<th>TLS</th>
+		<th>area</th>
+		<th>currency</th>
+		<th></th>
+    </tr>
+    <tr>
+        <td>hellominer</td>
+        <td>us1.hellominer.com:4400</br>eu1.hellominer.com:4400</br>asia1.hellominer.com:4400</td>
+		<td></td>
+		<td>unknown</td>
+		<td>USA</td>
+		<td>XMR</td>
+		<td><button type="button" onclick="javascript:button_onclick_hellominer();">dashboard</button></td>
+		</tr>
+    <<tr>
+        <td></td>
+        <td></td>
+        <td>unknown</td>
+		<td>unknown</td>
+		<td>unknown</td>
+		<td></td>
+		<td></td>
+    </tr>
+</table>
+
+			</div>
+	</div>
+</section>
+<script language="javascript" type="text/javascript" src="template/footer.js"></script>
+<script type="text/javascript">
+var yourAddress = document.getElementById('yourAddress');
+function button_onclick_hellominer(){
+	value = yourAddress.value.replace(/[\s]+/gm, '');
+	if(value.length == 0)
+	{
+		alert("请在上方输入框输入钱包地址 (Please enter the wallet address in the input box above)");
+		return;
+	}
+	var url = "Https://hellominer.com/api/v1?currency=XMR&command=AccountTotal&address=" + value;
+	var httpRequest = new XMLHttpRequest();
+	httpRequest.open('GET', url, true);
+	httpRequest.send();
+	httpRequest.onreadystatechange = function () {
+		if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+			var json = httpRequest.responseText;//获取到json字符串，还需解析
+			//alert(json);
+        }
+    };
+}
+</script>
+</body>
+</html>
