@@ -7,7 +7,7 @@ document.writeln("		</button>");
 document.writeln("		<div class=\'collapse navbar-collapse\' id=\'navbarSupportedContent\'>");
 document.writeln("			<ul class=\'navbar-nav mr-auto\'>");
 document.writeln("				<li class=\'nav-item active\'><a class=\'nav-link\' href=\'\\'>Home</a></li>");
-document.writeln("				<li class=\'nav-item\'><a class=\'nav-link\' href=\'#\'>矿池(pools)</a></li>");
+document.writeln("				<li class=\'nav-item\'><a class=\'nav-link\' href=\'/pools.html\'>矿池(pools)</a></li>");
 document.writeln("				<!--<li class=\'nav-item\'><a class=\'nav-link\' href=\'#\'>Blog</a></li>-->");
 document.writeln("			</ul>");
 document.writeln("			<ul class=\'navbar-nav ml-auto\'><li class=\'nav-item active\'><a class=\'nav-link\' href=\'https://xmr-online.github.io/#Download\'><i class=\'icon ion-md-download\'></i> Download 下载</a></li></ul>");
