@@ -47,6 +47,8 @@
 		<th>TLS</th>
 		<th>area</th>
 		<th>currency</th>
+		<th>handling fee</th>
+		<th>withdraw</th>
 		<th></th>
     </tr>
     <tr>
@@ -56,14 +58,40 @@
 		<td>unknown</td>
 		<td>USA</td>
 		<td>XMR</td>
+		<td></td>
+		<td></td>
 		<td><button type="button" onclick="javascript:button_onclick_hellominer();">dashboard</button></td>
-		</tr>
-    <<tr>
+	</tr>
+    <tr>
+        <td>supportxmr</td>
+        <td>info.gov.hk.Supportxmr.com:3333</br>info.gov.hk.Supportxmr.com:5555</br>info.gov.hk.Supportxmr.com:7777</td>
+        <td>80</br>8080</td>
+		<td>info.gov.hk.Supportxmr.com:9000</br>info.gov.hk.Supportxmr.com:443</td>
+		<td>USA</td>
+		<td>XMR</td>
+		<td>0.5%</td>
+		<td>0.1</td>
+		<td><button type="button" onclick="javascript:button_onclick_supportxmr();">dashboard</button></td>
+    </tr>
+	<tr>
+        <td>xmrfast</td>
+        <td>xmrfast.com:3333</br>xmrfast.com:5555</br>xmrfast.com:7777</td>
+        <td>6666</td>
+		<td>xmrfast.com:9000</td>
+		<td>USA</td>
+		<td>XMR</td>
+		<td></td>
+		<td>0.005</td>
+		<td><button type="button" onclick="javascript:button_onclick_xmrfast();">dashboard</button></td>
+    </tr>
+	<tr>
         <td></td>
         <td></td>
         <td>unknown</td>
 		<td>unknown</td>
 		<td>unknown</td>
+		<td></td>
+		<td></td>
 		<td></td>
 		<td></td>
     </tr>
@@ -73,6 +101,7 @@
 	</div>
 </section>
 <script language="javascript" type="text/javascript" src="template/footer.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
 var yourAddress = document.getElementById('yourAddress');
 function button_onclick_hellominer(){
@@ -82,16 +111,28 @@ function button_onclick_hellominer(){
 		alert("请在上方输入框输入钱包地址 (Please enter the wallet address in the input box above)");
 		return;
 	}
-	var url = "Https://hellominer.com/api/v1?currency=XMR&command=AccountTotal&address=" + value;
-	var httpRequest = new XMLHttpRequest();
-	httpRequest.open('GET', url, true);
-	httpRequest.send();
-	httpRequest.onreadystatechange = function () {
-		if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-			var json = httpRequest.responseText;//获取到json字符串，还需解析
-			//alert(json);
-        }
-    };
+	//var url = "https://minexmr.com/api/main/user/stats?address=" + value;
+	alert("暂时不支持该功能");
+}
+function button_onclick_supportxmr(){
+	value = yourAddress.value.replace(/[\s]+/gm, '');
+	if(value.length == 0)
+	{
+		alert("请在上方输入框输入钱包地址 (Please enter the wallet address in the input box above)");
+		return;
+	}
+	//var url = "https://minexmr.com/api/main/user/stats?address=" + value;
+	alert("暂时不支持该功能");
+}
+function button_onclick_xmrfast(){
+	value = yourAddress.value.replace(/[\s]+/gm, '');
+	if(value.length == 0)
+	{
+		alert("请在上方输入框输入钱包地址 (Please enter the wallet address in the input box above)");
+		return;
+	}
+	//var url = "https://minexmr.com/api/main/user/stats?address=" + value;
+	alert("暂时不支持该功能");
 }
 </script>
 </body>
