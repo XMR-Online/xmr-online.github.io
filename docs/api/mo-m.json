@@ -2,7 +2,12 @@
   {
     "name":"",
     "Version":17,
+    "viceVersion":0,
+    "explanation":"",
+    "introduction":"",
     "updataUrl":"",
+    "updateContent":"",
+    "supportHotUpdate":false,
     "data":{}
   }
 }
