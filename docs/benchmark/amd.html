@@ -4,7 +4,14 @@
 <meta charset="utf-8"> 
 <title></title> 
 </head>
-
+<script language="javascript" type="text/javascript">
+	  window.onload = function () {
+         var tableLine = document.getElementById("number");
+         for (var i = 0; i < tableLine.rows.length; i++) {
+             tableLine.rows[i].cells[0].innerHTML = (i + 1);
+         }
+     }
+</script>
 <table border="1">
 <tr>
 	<th>排名</th>
