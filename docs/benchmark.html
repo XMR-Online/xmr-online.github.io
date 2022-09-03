@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <!-- Custom styles -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,600" rel="stylesheet">
+<!-- Ionic icons -->
+<link href="assets/css/ionicons.min.css" rel="stylesheet">
+<!-- Favicon -->
+<link rel="shortcut icon" href="assets/images/favicon.png" />
+<title>ReandomX Benchmark - 门罗在线</title>
+<meta name="keywords" content="Benchmark" />
+<meta name="description" content="ReandomX Benchmark" />
+<meta name="author" content="XMROnline! Team and XMROnline UI Team" />
+<meta name="copyright" content="2021 XMROnline Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+</head>
+<body>
+<script language="javascript" type="text/javascript" src="template/header.js"></script>
+<script language="javascript" type="text/javascript">
+	  window.onload = function () {
+         var tableLine = document.getElementById("number");
+         for (var i = 0; i < tableLine.rows.length; i++) {
+             tableLine.rows[i].cells[0].innerHTML = (i + 1);
+         }
+		 document.getElementById("benchmark").src="amd.html";
+     }
+</script>
+<body>
+<script language="javascript" type="text/javascript">
+function jump_amd(){
+	document.getElementById("benchmark").src="benchmark/amd.html";
+};
+function jump_intel(){
+	document.getElementById("benchmark").src="benchmark/intel.html";
+};
+</script>
+
+<button onclick = "jump_intel()" >Intel</button> <button onclick = "jump_amd()" >AMD</button>
+<iframe id="benchmark"></iframe>
+
+
+<script language="javascript" type="text/javascript" src="template/footer.js"></script>
+</body>
+</html>
