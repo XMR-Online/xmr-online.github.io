@@ -30,7 +30,6 @@
          for (var i = 0; i < tableLine.rows.length; i++) {
              tableLine.rows[i].cells[0].innerHTML = (i + 1);
          }
-		 document.getElementById("benchmark").src="benchmark/amd.html";
      }
 </script>
 <body>
@@ -49,5 +48,6 @@ function jump_intel(){
 </div>
 <iframe id="benchmark" scrolling='yes' frameborder='0' width='100%' height='1200px' style='display:block;'>浏览器不支持显示</iframe>
 <script language="javascript" type="text/javascript" src="template/footer.js"></script>
+<script language="javascript" type="text/javascript">document.getElementById("benchmark").src="benchmark/amd.html";</script>
 </body>
 </html>
